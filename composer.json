@@ -3,9 +3,6 @@
   "description": "This TYPO3 extension will provide PSR-14 events for the SiteConfiguration Class methods write, rename and delete",
   "type": "typo3-cms-extension",
   "config": {
-	  "platform": {
-		  "php": "8.3.3"
-	  },
 	  "allow-plugins": {
 		  "typo3/cms-composer-installers": true,
 		  "typo3/class-alias-loader": true,
@@ -13,7 +10,7 @@
 	  }
   },
 	"require": {
-	  "php": "8.3.*||8.2.*||8.1.*",
+	  "php": "^8.2 || ^8.3 || ^8.4",
 	  "typo3/cms-core": "^13.0"
 	},
 	"require-dev": {

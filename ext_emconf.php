@@ -23,7 +23,7 @@ $EM_CONF['siteconfigurationevents'] = [
     'author_company' => 'Code711, a label of Sudhaus7, B-Factor GmbH and 12bis3 GbR',
     'constraints' => [
         'depends' => [
-            'typo3' => '13.0.0-13.99.99',
+            'typo3' => '13.0.0-13.4.99',
         ],
         'conflicts' => [
         ],
